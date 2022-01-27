@@ -1,14 +1,7 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-# gem "rails"
+# to publish on github page
+gem 'github-pages', group: :jekyll_plugins
 
-gem "jekyll", "~> 4.2"
-gem "webrick"
-
-group :jekyll_plugins do
-    gem 'jekyll-sitemap'
-    gem 'jekyll-feed'
-    gem 'jekyll-seo-tag'
-end
+# to publich without github page
+#gem "jekyll"
